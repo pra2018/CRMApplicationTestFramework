@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14322" started-at="2018-03-25T18:28:08Z" finished-at="2018-03-25T18:28:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14322" started-at="2018-03-25T18:28:08Z" finished-at="2018-03-25T18:28:22Z">
+      <class name="zoho.CRMAutomationFramework.Testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:zoho.CRMAutomationFramework.Testcases.LoginTest@4bda5048]" name="setup" is-config="true" duration-ms="11702" started-at="2018-03-25T23:58:08Z" finished-at="2018-03-25T23:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="zohoCRMLogin()[pri:0, instance:zoho.CRMAutomationFramework.Testcases.LoginTest@4bda5048]" name="zohoCRMLogin" duration-ms="2594" started-at="2018-03-25T23:58:19Z" finished-at="2018-03-25T23:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zohoCRMLogin -->
+      </class> <!-- zoho.CRMAutomationFramework.Testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
