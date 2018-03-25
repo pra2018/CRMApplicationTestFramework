@@ -18,7 +18,7 @@ public class Base {
 		// TODO Auto-generated method stub
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("E://MyWorkSpace//CRMAutomationFramework//src//test//java//zoho//CRMAutomationFramework//Config//ProjectConfig.properties");
+			fis = new FileInputStream("E://LocalRepo//zohoCRM//CRMAutomationFramework//src//test//java//zoho//CRMAutomationFramework//Config//ProjectConfig.properties");
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

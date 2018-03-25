@@ -40,7 +40,9 @@ public class Login {
 	
 	}
 	
-	
+	public String getPageTitle(){
+		return driver.getTitle();
+	}
 	
   
 }

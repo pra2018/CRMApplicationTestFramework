@@ -1,5 +1,6 @@
 package zoho.CRMAutomationFramework.Testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -17,5 +18,8 @@ public class LoginTest extends Base{
 	public void zohoCRMLogin(){
 		Login login=new Login(driver);
 		login.doLogin(prop.getProperty("userId"),prop.getProperty("appPassword"));
-	}
+		Assert.assertEquals(login.getPageTitle(), "Zoho"); 
+}
+	 
+	
 }
